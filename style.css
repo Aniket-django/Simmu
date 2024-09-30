@@ -32,6 +32,32 @@ p {
     margin-top: 10px;
 }
 
+/* Navigation styles */
+nav {
+    margin-top: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffebcd; /* Lighter color on hover */
+}
+
 /* Gallery Section */
 #gallery {
     padding: 30px;
@@ -108,3 +134,58 @@ footer {
         width: 90%;
     }
 }
+/* Video Section */
+.video-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+}
+
+.video-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Shadow */
+}
+
+.video-item video {
+    width: 300px; /* Set a width for the video */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for the video */
+}
+
+.video-item p {
+    font-size: 1.1em;
+    margin-top: 10px;
+    color: #ff69b4; /* Cute pink text */
+}
+/* Video Section */
+.video-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+}
+
+.video-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Shadow */
+}
+
+.video-item video {
+    width: 300px; /* Set a width for the video */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for the video */
+}
+
+.video-item p {
+    font-size: 1.1em;
+    margin-top: 10px;
+    color: #ff69b4; /* Cute pink text */
+}
+
