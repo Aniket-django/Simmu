@@ -188,4 +188,49 @@ footer {
     margin-top: 10px;
     color: #ff69b4; /* Cute pink text */
 }
+.quote-box {
+    border: 2px solid #ff6b81; /* Soft red border */
+    background-color: #ffe3e3; /* Light pink background */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto; /* Center the quote box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a soft shadow for depth */
+    text-align: center;
+  }
+  
+  .quote-box p {
+    font-family: 'Georgia', serif; /* Elegant, romantic font */
+    font-size: 1.3em;
+    color: #b30000; /* Deep red for the text */
+    margin: 0;
+    font-style: italic;
+  }
+  .story-box {
+    border: 3px solid #ff6b81; /* Soft red border */
+    background-color: #ffe4e1; /* Light pink background */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    max-width: 800px; /* Limit width */
+    margin: 30px auto; /* Center the box */
+    font-family: 'Georgia', serif; /* Romantic font */
+    line-height: 1.8; /* Easier reading */
+    text-align: justify;
+}
+
+.story-box h2 {
+    font-family: 'Pacifico', cursive; /* Fun decorative font for title */
+    font-size: 2em;
+    color: #b30000; /* Deep red */
+    margin-bottom: 20px;
+    text-align: center; /* Center the heading */
+}
+
+.story-box p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
 
