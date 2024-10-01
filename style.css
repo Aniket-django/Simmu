@@ -188,25 +188,42 @@ footer {
     margin-top: 10px;
     color: #ff69b4; /* Cute pink text */
 }
+/* Quote Box Styling */
 .quote-box {
     border: 2px solid #ff6b81; /* Soft red border */
     background-color: #ffe3e3; /* Light pink background */
     padding: 20px;
     border-radius: 10px;
     max-width: 600px;
-    margin: 0 auto; /* Center the quote box */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a soft shadow for depth */
+    margin: 20px auto; /* Center the quote box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a soft shadow */
     text-align: center;
-  }
-  
-  .quote-box p {
     font-family: 'Georgia', serif; /* Elegant, romantic font */
     font-size: 1.3em;
     color: #b30000; /* Deep red for the text */
-    margin: 0;
     font-style: italic;
-  }
-  .story-box {
+}
+
+/* Media Query for Tablets and Smaller Screens */
+@media (max-width: 768px) {
+    .quote-box {
+        padding: 15px; /* Reduce padding */
+        max-width: 90%; /* Make it more compact on smaller screens */
+        font-size: 1.1em; /* Adjust font size */
+    }
+}
+
+/* Media Query for Smartphones */
+@media (max-width: 480px) {
+    .quote-box {
+        padding: 10px; /* Reduce padding further */
+        max-width: 95%; /* Make the box width almost full screen */
+        font-size: 1em; /* Smaller font size for smaller devices */
+    }
+}
+
+  /* Story Box Styling */
+.story-box {
     border: 3px solid #ff6b81; /* Soft red border */
     background-color: #ffe4e1; /* Light pink background */
     padding: 30px;
@@ -231,4 +248,36 @@ footer {
     font-size: 1.2em;
     color: #333;
     margin-bottom: 20px;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+    .story-box {
+        padding: 20px;
+        max-width: 90%; /* Reduce the width to fit smaller screens */
+        font-size: 1em;
+    }
+
+    .story-box h2 {
+        font-size: 1.5em; /* Reduce the size of the heading */
+    }
+
+    .story-box p {
+        font-size: 1em; /* Reduce paragraph font size */
+    }
+}
+
+@media (max-width: 480px) {
+    .story-box {
+        padding: 15px;
+        max-width: 95%; /* Further reduce the width for very small screens */
+    }
+
+    .story-box h2 {
+        font-size: 1.2em; /* Further reduce heading size for smartphones */
+    }
+
+    .story-box p {
+        font-size: 0.9em; /* Adjust paragraph font size for small screens */
+    }
 }
